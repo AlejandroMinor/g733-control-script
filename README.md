@@ -5,6 +5,9 @@
 Make sure to install `pyusb` (on arch install the package `python-pyusb`).
 
 ```bash
+# open main menu
+sudo python g733-control-script
+
 # turn sidetone and led off: 
 sudo python main.py --sidetone 0 --colors 0
 
