@@ -18,8 +18,8 @@ g733 = LogitechG733(usb_controller.device)
 if not g733.is_connected():
     print("USB Device found, but charge state indicates that it's off?")
 
-charge_percentage = g733.get_charge_percentage()
-print("Battery: ", charge_percentage, "%")
+# charge_percentage = g733.get_charge_percentage()
+# print("Battery: ", charge_percentage, "%")
 
 if args.colors is not None and len(args.colors) == 1:
     print("Turning leds off")
